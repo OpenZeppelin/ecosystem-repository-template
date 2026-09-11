@@ -1,0 +1,8 @@
+# Every PR is automatically assigned to the owners of the paths it touches.
+# Replace the handles below with this repository's maintainers, then delete this comment.
+#
+# Later entries win, so add narrower rules under the catch-all as the repo grows, e.g.:
+#   /audits/        @{{security-reviewer}}
+#   /.github/       @{{ci-owner}}
+
+*       @{{maintainer}} @{{maintainer}} @{{maintainer}}
