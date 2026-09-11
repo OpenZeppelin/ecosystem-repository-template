@@ -67,10 +67,6 @@ Documentation is available inline in the source code. You can generate the docum
 High-level guides live on the [documentation site](https://docs.openzeppelin.com/{{docs-slug}}).
 -->
 
-## Notes
-
-We strive to maintain consistency with other OpenZeppelin libraries as much as possible, following the same conventions and patterns. However, this {{Ecosystem}} library does not have a 1-to-1 mapping with other OpenZeppelin contracts. Due to differences in the {{Ecosystem}} architecture and {{Language}} capabilities, certain features and implementations may differ from their counterparts in other ecosystems.
-
 <!-- OPTIONAL — uncomment each line as the integration becomes available for this ecosystem.
 
 ## Tooling
