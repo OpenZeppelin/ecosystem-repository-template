@@ -20,7 +20,7 @@
 
 ## Usage
 
-{{Ecosystem}} smart contracts are written in {{Language}} leveraging {{the framework/SDK}}. Follow the installation guide in the [{{Ecosystem}} documentation]({{setup-guide-url}}).
+{{Ecosystem}} smart contracts are written in {{Language}} leveraging {{framework/SDK}}. Follow the installation guide in the [{{Ecosystem}} documentation]({{setup-guide-url}}).
 
 **Required version**: {{toolchain}} [{{version}}]({{toolchain-release-url}}).
 
