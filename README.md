@@ -67,6 +67,8 @@ Documentation is available inline in the source code. You can generate the docum
 High-level guides live on the [documentation site](https://docs.openzeppelin.com/{{docs-slug}}).
 -->
 
+**AI agents:** [`llms.txt`](llms.txt) is the discovery entry point for integrating this library into a downstream project — it points to the package catalogs, examples, generated API reference, and audits.
+
 <!-- OPTIONAL — uncomment each line as the integration becomes available for this ecosystem.
 
 ## Tooling
