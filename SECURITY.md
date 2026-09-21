@@ -1,20 +1,14 @@
-<!-- Template: replace every {{...}} placeholder, then delete this comment.
-     Sections wrapped in OPTIONAL comment blocks stay hidden until they apply
-     (a bug bounty program, the first release) — uncomment them then. -->
+<!-- Template: replace every {{...}} placeholder, then delete this comment. The OPTIONAL
+     block stays hidden until a bug bounty program covers this repository. -->
 
 # Security Policy
 
-## Reporting a Vulnerability
+Security vulnerabilities should be disclosed to the project maintainers by email to
+<security@openzeppelin.com>.
 
-Please **do not** open a public issue for a security vulnerability.
-
-Report it by email to [security@openzeppelin.com](mailto:security@openzeppelin.com). You will
-receive an acknowledgement, and we will keep you informed as we work on a fix. We ask that you
-give us a reasonable opportunity to address the issue before any public disclosure.
-
-<!-- OPTIONAL — uncomment once a bug bounty program covers this repository:
-
-Vulnerabilities may also be disclosed through [Immunefi].
+<!-- OPTIONAL — uncomment once a bug bounty program covers this repository, and change the
+     sentence above to: "...disclosed to the project maintainers through [Immunefi], or
+     alternatively by email to <security@openzeppelin.com>."
 
 [Immunefi]: {{immunefi-program-url}}
 
@@ -22,21 +16,6 @@ Vulnerabilities may also be disclosed through [Immunefi].
 
 Responsible disclosure of security vulnerabilities is rewarded through a bug bounty program on
 [Immunefi].
-
--->
-
-## Supported Versions
-
-Security updates are applied to the versions below. Older releases do not receive fixes; upgrade
-before reporting an issue against them.
-
-<!-- OPTIONAL — uncomment and fill in from the first release onward. Until then the
-     README carries the "not audited / experimental" warning and nothing is supported.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| {{x.y}} | :white_check_mark: |
-| < {{x.y}} | :x:              |
 
 -->
 
