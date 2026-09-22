@@ -2,7 +2,7 @@
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply
      (first release, docs site, first audit) — uncomment them then. -->
 
-# OpenZeppelin Contracts for {{Ecosystem}}
+# {{Project name}}
 
 [![Lint and Test](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml)
 [![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
@@ -16,7 +16,7 @@
 > [!WARNING]
 > This is experimental software and is provided on an "as is" and "as available" basis. We do not give any warranties and will not be liable for any losses incurred through any use of this code base.
 
-**OpenZeppelin Contracts for {{Ecosystem}}** is a collection of secure smart contract libraries written in {{Language}} for the [{{Ecosystem}}]({{ecosystem-url}}) network. Our goal is to bring Web3 standards under the OpenZeppelin quality by providing a set of high-quality, battle-tested contracts that can be used to build decentralized applications on the {{Ecosystem}} network.
+**{{Project name}}** is a collection of secure smart contract libraries written in {{Language}} for the [{{Ecosystem}}]({{ecosystem-url}}) network. Our goal is to bring Web3 standards under the OpenZeppelin quality by providing a set of high-quality, battle-tested contracts that can be used to build decentralized applications on the {{Ecosystem}} network.
 
 ## Usage
 
@@ -44,8 +44,8 @@ Pin to a specific version:
 ```
 
 > [!WARNING]
-> Install from tagged releases, never from the development branch — the release
-> process involves security measures the default branch does not guarantee.
+> Install from tagged releases, never from the development branch — see
+> [`RELEASING.md`](RELEASING.md).
 
 ### Example
 
@@ -90,7 +90,7 @@ Past audits can be found in [`audits/`](audits).
 
 For security concerns, please refer to our [Security Policy](SECURITY.md).
 
-Smart contracts are an evolving technology and carry a high level of technical risk and uncertainty. Although OpenZeppelin is well known for its security audits, using OpenZeppelin Contracts for {{Ecosystem}} is not a substitute for a security audit.
+Smart contracts are an evolving technology and carry a high level of technical risk and uncertainty. Although OpenZeppelin is well known for its security audits, using {{Project name}} is not a substitute for a security audit.
 
 ## Contribute
 
@@ -102,4 +102,4 @@ You can find more details in our [Contributing](CONTRIBUTING.md) guide, and plea
 
 ## License
 
-OpenZeppelin Contracts for {{Ecosystem}} is released under the terms of the [`LICENSE`](LICENSE) file.
+{{Project name}} is released under the terms of the [`LICENSE`](LICENSE) file.
