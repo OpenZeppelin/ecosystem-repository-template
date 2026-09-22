@@ -1,6 +1,4 @@
-<!-- Template: replace every {{...}} placeholder, then delete this comment.
-     Sections wrapped in OPTIONAL comment blocks stay hidden until they apply
-     (a CI package matrix) — uncomment them then. -->
+<!-- Template: replace every {{...}} placeholder, then delete this comment. -->
 
 # Contributing to {{Project name}}
 
@@ -53,14 +51,6 @@ The single source of truth for how changes land — humans and agents follow the
 - When you make a user-facing change, record it in [`CHANGELOG.md`](CHANGELOG.md) under
   `## Unreleased`, grouped by change type (`### Added` / `Changed` / `Fixed` / ...), following
   [Keep a Changelog](https://keepachangelog.com/), and reference the PR number.
-
-<!-- OPTIONAL — uncomment once CI builds packages from an explicit matrix:
-
-- When you add a new package, register it in the CI package matrix in the same PR. The matrix
-  is the only thing that builds, lints and tests a package in CI; a package missing from it is
-  silently never checked, so its tests do not gate merges.
-
--->
 
 ## AI-assisted contributions
 
