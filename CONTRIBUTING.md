@@ -54,8 +54,9 @@ The single source of truth for how changes land — humans and agents follow the
 
 ## AI-assisted contributions
 
-Using an AI assistant to prepare a contribution is fine. What does not change is who is
-answerable for the result:
+AI coding assistants are welcome (see [`AGENTS.md`](AGENTS.md) for the project tooling), but
+review thoroughly every line you submit. What does not change is who is answerable for the
+result:
 
 - **You are responsible for the quality of everything you submit, whatever tools produced it.**
   Read, understand and test the code before opening a PR — if you cannot explain why a change
@@ -66,7 +67,7 @@ answerable for the result:
   repository's own quality command (see [`AGENTS.md`](AGENTS.md) for the agent setup) and act
   on what they report.
 
-Low-quality submissions are closed without further explanation.
+We may close low-effort AI output without further explanation.
 
 ## A typical workflow
 
