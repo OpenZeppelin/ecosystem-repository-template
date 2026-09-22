@@ -1,15 +1,22 @@
-<!-- Template: replace every {{...}} placeholder, then delete this comment.
-     Sections wrapped in OPTIONAL comment blocks stay hidden until they apply
-     (first release, docs site, first audit) — uncomment them then. -->
+<!-- Template — adapting this repository. Skeleton files are not finished files; before the repo
+     is announced as ready:
+     1. Replace every {{...}} placeholder, here and in every other file.
+     2. LICENSE: keep MIT or swap the whole file for the license the deal requires.
+     3. GUIDELINES.md and ARCHITECTURE.md: write the actual conventions, module map, design
+        decisions and constraints. Headings with the TODO comments removed do not count.
+     4. RELEASING.md: replace the stub before the first release.
+     5. Check every relative link resolves.
+     Sections wrapped in OPTIONAL comment blocks stay hidden until they apply (CI workflow,
+     coverage upload, first release, docs site, first audit) — uncomment them then.
+     Delete this comment when done. -->
 
 # {{Project name}}
 
-<!-- The CI badge assumes the house convention of a `test.yml` workflow and renders once that
-     workflow exists. -->
-[![Lint and Test](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml)
 [![License](https://img.shields.io/github/license/OpenZeppelin/{{repo}})](LICENSE)
-<!-- OPTIONAL badges — uncomment once coverage upload is configured / with the first release /
-     with the docs site:
+<!-- OPTIONAL badges — uncomment each as it becomes true: once `.github/workflows/test.yml`
+     exists (the house convention for the CI workflow name), once coverage upload is
+     configured, with the first release, with the docs site:
+[![Lint and Test](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml)
 [![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
 [![GitHub Release](https://img.shields.io/github/v/tag/OpenZeppelin/{{repo}}.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/{{repo}}/releases/latest)
 [![{{Registry}} Package]({{registry-badge-url}})]({{registry-package-url}})
