@@ -1,6 +1,6 @@
 <!-- Template: replace every {{...}} placeholder, then delete this comment.
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply
-     (Conventional Commits, a CI package matrix) — uncomment them then. -->
+     (a CI package matrix) — uncomment them then. -->
 
 # Contributing to {{Project name}}
 
@@ -41,24 +41,18 @@ The single source of truth for how changes land — humans and agents follow the
 
 - **Sign every commit.** Configure commit signing before your first contribution; unsigned
   commits will not be merged.
+- Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit
+  messages: `type(scope): summary`, e.g. `fix(vesting): reject zero-duration schedules`.
 - **Never add a `Co-Authored-By` trailer for an AI assistant.** Add one only for a human
   co-author. You are accountable for what you submit and sign with your own name; an AI
   assistant is a tool, and a tool does not co-author.
-- Keep the subject line short and imperative, and explain the *why* in the body when it is not
+- Keep the summary short and imperative, and explain the *why* in the body when it is not
   obvious from the diff.
 - Begin the PR body with "Fixes #123" or "Resolves #123" to link the PR to the issue it
   resolves.
 - When you make a user-facing change, record it in [`CHANGELOG.md`](CHANGELOG.md) under
   `## Unreleased`, grouped by change type (`### Added` / `Changed` / `Fixed` / ...), following
   [Keep a Changelog](https://keepachangelog.com/), and reference the PR number.
-
-<!-- OPTIONAL — uncomment if this repository adopts Conventional Commits. It is deliberately
-     not a default: it is not currently mandated across OpenZeppelin ecosystem repos.
-
-- Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (`type(scope): summary`)
-  for commit messages.
-
--->
 
 <!-- OPTIONAL — uncomment once CI builds packages from an explicit matrix:
 
@@ -112,7 +106,7 @@ Low-quality submissions are closed without further explanation.
 
    ```sh
    git add .
-   git commit -S -m "some bug short description #123"
+   git commit -S -m "fix: some bug short description #123"
    git push origin fix/some-bug-short-description-#123
    ```
 
