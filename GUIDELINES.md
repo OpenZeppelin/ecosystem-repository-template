@@ -1,7 +1,9 @@
-<!-- Template: this file is authored per repository. Keep the intro and the section spine; fill
-     each section with this ecosystem's actual conventions and delete the TODO lines. Rules live
-     here and nowhere else — CONTRIBUTING.md, AGENTS.md, the code-quality command and the AI
-     review configs point at this file instead of restating it. Delete this comment when done. -->
+<!-- Template: this file is authored per repository. The sections below are what a typical
+     library needs, not a fixed list — drop any that do not apply to this ecosystem, and add a
+     section for anything it has that is not covered here. Fill each section with the actual
+     conventions and delete the TODO lines. Rules live here and nowhere else — CONTRIBUTING.md,
+     AGENTS.md, the code-quality command and the AI review configs point at this file instead of
+     restating it. Delete this comment when done. -->
 
 # Guidelines
 
