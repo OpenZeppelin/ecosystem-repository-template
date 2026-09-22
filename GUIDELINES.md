@@ -54,16 +54,20 @@ this file is silent, follow the [{{ecosystem style guide}}]({{ecosystem-style-gu
 Tests are written not only to verify the correctness of the target code but to be
 comprehensively reviewed by other programmers. For code that secures value, the quality of the
 tests matters as much as the code itself, and they are held to the same standards of clarity.
-Every addition or change to the code comes with relevant and comprehensive tests.
+Every addition or change to the code comes with relevant and comprehensive tests. Unit tests
+are mandatory for every new feature; whether a change also needs an integration test is
+decided in review — when unsure, open the PR and ask. The coverage gate itself is set in
+[`CONTRIBUTING.md`](CONTRIBUTING.md#code-quality-standards).
 
 <!-- TODO: test layout and naming, what every public function must have (happy path, each
-     failure path, boundaries), how expected failures are asserted, coverage expectations that
-     back the {{N}}% gate in CONTRIBUTING.md, what belongs in unit vs. integration tests. -->
+     failure path, boundaries), how expected failures are asserted, and what belongs in unit
+     vs. integration tests. -->
 
 ## Linting and formatting
 
-<!-- TODO: the formatter and linter commands CI runs, the settings that are non-negotiable, and
-     the only acceptable way to suppress a lint (with a justification comment). -->
+<!-- TODO: the formatter and linter configuration and the settings that are non-negotiable, and
+     the only acceptable way to suppress a lint (with a justification comment). The commands
+     themselves are listed once, in CONTRIBUTING.md's workflow — link there, do not repeat them. -->
 
 ## Documentation
 
