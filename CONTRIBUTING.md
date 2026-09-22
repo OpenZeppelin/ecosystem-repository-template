@@ -129,9 +129,9 @@ We may close low-effort AI output without further explanation.
 
 ## Tests
 
-If you are introducing a new feature, please add a new test to ensure that it works as
-expected. Unit tests are mandatory for each new feature. If you are unsure about whether to
-write an integration test, you can wait for the maintainer's feedback.
+What every change must be tested with, and how tests are laid out, lives in
+[`GUIDELINES.md`](GUIDELINES.md#testing). The coverage gate above is the only testing rule this
+file owns.
 
 ## All set
 
