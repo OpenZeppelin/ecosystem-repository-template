@@ -4,10 +4,13 @@
 
 # {{Project name}}
 
+<!-- The CI badge assumes the house convention of a `test.yml` workflow and renders once that
+     workflow exists. -->
 [![Lint and Test](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml)
-[![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
 [![License](https://img.shields.io/github/license/OpenZeppelin/{{repo}})](LICENSE)
-<!-- OPTIONAL badges — uncomment with the first release / the docs site:
+<!-- OPTIONAL badges — uncomment once coverage upload is configured / with the first release /
+     with the docs site:
+[![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
 [![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/{{repo}}.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/{{repo}}/releases/latest)
 [![{{Registry}} Package]({{registry-badge-url}})]({{registry-package-url}})
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-yellow)](https://docs.openzeppelin.com/{{docs-slug}})
