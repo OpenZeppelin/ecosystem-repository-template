@@ -1,8 +1,11 @@
-# Every PR is automatically assigned to the owners of the paths it touches.
-# Replace the handles below with this repository's maintainers, then delete this comment.
+# GitHub automatically requests a review from the owners of every path a PR touches — not for
+# draft PRs, and only from owners with write access to the repository. This alone does not
+# block merging: to require an owner's approval, configure branch protection or a ruleset.
+# Replace the handles below with this repository's maintainers (add as many as needed),
+# then delete this comment.
 #
 # Later entries win, so add narrower rules under the catch-all as the repo grows, e.g.:
 #   /audits/        @{{security-reviewer}}
 #   /.github/       @{{ci-owner}}
 
-*       @{{maintainer}} @{{maintainer}} @{{maintainer}}
+*       @{{maintainer-1}} @{{maintainer-2}}
