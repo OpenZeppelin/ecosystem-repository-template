@@ -11,7 +11,7 @@
 <!-- OPTIONAL badges — uncomment once coverage upload is configured / with the first release /
      with the docs site:
 [![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
-[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/{{repo}}.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/{{repo}}/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/tag/OpenZeppelin/{{repo}}.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/{{repo}}/releases/latest)
 [![{{Registry}} Package]({{registry-badge-url}})]({{registry-package-url}})
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-yellow)](https://docs.openzeppelin.com/{{docs-slug}})
 -->
