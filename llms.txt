@@ -8,10 +8,12 @@
      this file may be read outside GitHub. Delete this comment when the links are ready. -->
 
 These links describe the development branch (`main`). Releases are installed from tags, never
-from `main`, so match documentation to the version you installed: for the package catalogs and
-examples, replace `main` in the URL with the installed tag (for example `v1.2.0`); for the API
-reference, select that version in the reference itself; for audits, always use the current index
-below — reports are published after releases, and each row names the commit and scope it covers.
+from `main`, so read the documentation of the version you installed: for everything except the
+audits index — the Start-here documents, the package catalogs and the examples — replace `main`
+in the URL with the installed tag (for example `v1.2.0`), since install instructions and toolchain
+versions differ between releases; for the API reference, select that version in the reference
+itself; for audits, always use the current index below — reports are published after releases,
+and each row names the commit and scope it covers.
 
 ## Start here
 

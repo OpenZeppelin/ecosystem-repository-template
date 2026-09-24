@@ -69,9 +69,9 @@ result:
   is correct, it is not ready.
 - **Respect reviewers' time.** Review bandwidth is the scarcest resource in this project, and
   an unreviewed generated diff spends it faster than anything else.
-- **Do a local review pass before requesting a human one.** Run the tests and linter, then follow
-  the `code-quality` review procedure (see [`AGENTS.md`](AGENTS.md) for how to use it with your
-  agent). Act on what these checks report.
+- **Do a local review pass before requesting a human one.** Run the tests, the formatter and the
+  linter, then follow the `code-quality` review procedure (see [`AGENTS.md`](AGENTS.md) for how to
+  use it with your agent). Act on what these checks report.
 
 We may close low-effort AI output without further explanation.
 
@@ -98,8 +98,8 @@ We may close low-effort AI output without further explanation.
    the PR is linked to the issue through its description (step 5).
 
 3. Make your changes, add your files and update documentation. Run the tests, the formatter
-   and the linter locally and make sure they pass. For external PRs, the checks on GitHub run once a
-   maintainer approves them.
+   and the linter locally and make sure they pass. For external PRs, the checks on GitHub run
+   once a maintainer approves them.
 
    ```sh
    {{build command}}
