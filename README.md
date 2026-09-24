@@ -5,10 +5,13 @@
      3. GUIDELINES.md and ARCHITECTURE.md: write the actual conventions, module map, design
         decisions and constraints. Headings with the TODO comments removed do not count.
      4. RELEASING.md: replace the stub before the first release.
-     5. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
-     6. Check every relative link resolves.
+     5. CI: add `.github/workflows/test.yml` (the house name) running the build, test, coverage
+        and lint commands from CONTRIBUTING.md; CONTRIBUTING assumes PR checks exist.
+     6. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
+     7. Check every relative link resolves.
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply (CI workflow,
-     coverage upload, first release, docs site, first audit) — uncomment them then.
+     coverage upload, first release, docs site, tooling integrations, first audit) — uncomment
+     them then.
      Delete this comment when done. -->
 
 # {{Project name}}
@@ -80,7 +83,8 @@ High-level guides live on the [documentation site](https://docs.openzeppelin.com
 
 **AI agents:** [`llms.txt`](llms.txt) is the discovery entry point for integrating this library into a downstream project — it points to the package catalogs, examples, generated API reference, and audits.
 
-<!-- OPTIONAL — uncomment each line as the integration becomes available for this ecosystem.
+<!-- OPTIONAL — uncomment this section once at least one integration covers this ecosystem, and
+     keep only the lines that apply:
 
 ## Tooling
 

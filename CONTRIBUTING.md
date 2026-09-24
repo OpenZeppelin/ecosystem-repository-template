@@ -32,8 +32,8 @@ constraints in [`ARCHITECTURE.md`](ARCHITECTURE.md). Read both before opening a 
 below are the hard gates your contribution must clear:
 
 - **Test coverage**: minimum {{N}}% coverage required.
-- **Linting**: all code must pass strict linting with the command in
-  [the workflow below](#a-typical-workflow).
+- **Formatting and linting**: all code must pass the formatter and strict linting with the
+  commands in [the workflow below](#a-typical-workflow).
 - **Conventions**: follow [`GUIDELINES.md`](GUIDELINES.md).
 - **Documentation**: add inline documentation for every public API, formatted per
   [`GUIDELINES.md`](GUIDELINES.md).
@@ -91,20 +91,21 @@ We may close low-effort AI output without further explanation.
 
    ```sh
    git fetch upstream
-   git checkout -b fix/some-bug-short-description-#123 upstream/main
+   git checkout -b fix/some-bug-short-description-123 upstream/main
    ```
 
-   The issue number in the branch name (ex: `fix/typos-in-docs-#123`) is for readability only;
+   The issue number in the branch name (ex: `fix/typos-in-docs-123`) is for readability only;
    the PR is linked to the issue through its description (step 5).
 
-3. Make your changes, add your files and update documentation. Run the tests and the linter
-   locally and make sure they pass. For external PRs, the checks on GitHub run once a
+3. Make your changes, add your files and update documentation. Run the tests, the formatter
+   and the linter locally and make sure they pass. For external PRs, the checks on GitHub run once a
    maintainer approves them.
 
    ```sh
    {{build command}}
    {{test command}}
    {{coverage command}}
+   {{format command}}   # omit if the lint command also formats
    {{lint command}}
    ```
 
@@ -113,7 +114,7 @@ We may close low-effort AI output without further explanation.
    ```sh
    git add .
    git commit -S -m "fix: some bug short description #123"
-   git push origin fix/some-bug-short-description-#123
+   git push origin fix/some-bug-short-description-123
    ```
 
 5. Go to [OpenZeppelin/{{repo}}](https://github.com/OpenZeppelin/{{repo}}) in your web browser

@@ -1,6 +1,6 @@
 ---
 name: code-quality
-description: Review or improve source code against this repository's written conventions and design constraints. Use when asked for a code-quality, style, or conventions review.
+description: Review or improve changed code, documentation and configuration against this repository's written conventions and design constraints. Use when asked for a code-quality, style, conventions or consistency review.
 ---
 
 # Code quality
@@ -20,9 +20,12 @@ from the repository root.
    [`CONTRIBUTING.md`](../../../CONTRIBUTING.md). Use the toolchain and commands documented in
    [`README.md`](../../../README.md) and `CONTRIBUTING.md` when they have been filled in for this
    repository.
-3. Report concrete findings with a file and line, the relevant document section, and a proposed
-   correction. Do not present an unwritten preference as a repository rule. If a template TODO
-   still stands in place of a rule, identify that gap rather than guessing its content.
+3. Report concrete findings with a file and line and a proposed correction. For a convention
+   finding, name the document section it rests on. For a functional defect — a wrong condition,
+   a broken link, a failing test — give the evidence instead: the code path, the failing test or
+   a reproduction; it counts even when no document covers it. Do not present an unwritten
+   preference as a repository rule. If a template TODO still stands in place of a rule,
+   identify that gap rather than guessing its content.
 4. If the user asked to improve or fix the code, make the supported corrections, then run the
    relevant formatter, linter and tests from `CONTRIBUTING.md`. If the user asked only for a
    review, report findings without changing files. State any checks that could not run and why.

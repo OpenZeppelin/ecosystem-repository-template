@@ -16,8 +16,8 @@ restating the rules.
 > layout, constraints), see [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 These conventions target {{Language}} {{edition/version}} and the toolchain version pinned in
-[`README.md`](README.md#usage). Where
-this file is silent, follow the [{{ecosystem style guide}}]({{ecosystem-style-guide-url}}).
+[`README.md`](README.md#usage). Where this file is silent, follow the
+[{{ecosystem style guide}}]({{ecosystem-style-guide-url}}).
 
 ## Naming
 
