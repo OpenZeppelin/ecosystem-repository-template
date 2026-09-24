@@ -29,6 +29,8 @@
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-yellow)](https://docs.openzeppelin.com/{{docs-slug}})
 -->
 
+<!-- Remove the warning below when the library leaves experimental status — a maintainers' call,
+     typically at the first stable release. It is independent of the audit status further down. -->
 > [!WARNING]
 > This is experimental software and is provided on an "as is" and "as available" basis. We do not give any warranties and will not be liable for any losses incurred through any use of this code base.
 
