@@ -5,7 +5,8 @@
      3. GUIDELINES.md and ARCHITECTURE.md: write the actual conventions, module map, design
         decisions and constraints. Headings with the TODO comments removed do not count.
      4. RELEASING.md: replace the stub before the first release.
-     5. Check every relative link resolves.
+     5. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
+     6. Check every relative link resolves.
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply (CI workflow,
      coverage upload, first release, docs site, first audit) — uncomment them then.
      Delete this comment when done. -->
@@ -26,7 +27,7 @@
 > [!WARNING]
 > This is experimental software and is provided on an "as is" and "as available" basis. We do not give any warranties and will not be liable for any losses incurred through any use of this code base.
 
-**{{Project name}}** is a collection of secure smart contract libraries written in {{Language}} for the [{{Ecosystem}}]({{ecosystem-url}}) network. Our goal is to bring Web3 standards under the OpenZeppelin quality by providing a set of high-quality, battle-tested contracts that can be used to build decentralized applications on the {{Ecosystem}} network.
+**{{Project name}}** is a collection of secure smart contract libraries written in {{Language}} for the [{{Ecosystem}}]({{ecosystem-url}}) network. Our goal is to bring Web3 standards under the OpenZeppelin quality by providing a set of high-quality contracts that can be used to build decentralized applications on the {{Ecosystem}} network.
 
 ## Usage
 

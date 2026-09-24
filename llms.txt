@@ -1,0 +1,37 @@
+# {{Project name}}
+
+> {{One sentence: what the library is and which network it targets.}}
+
+<!-- Template: replace every {{...}} placeholder and add one catalog link per package group.
+     Remove example links that do not apply. Keep this file as a discovery map; put package
+     details, examples and API documentation in their own sources. Use absolute URLs because
+     this file may be read outside GitHub. Delete this comment when the links are ready. -->
+
+> These links describe the development branch (`main`). When integrating a released version,
+> replace `main` in every URL with the tag you installed (for example `v1.2.0`) — releases are
+> installed from tags, never from `main`, so the API on `main` may already differ.
+
+## Start here
+
+- [README.md](https://raw.githubusercontent.com/OpenZeppelin/{{repo}}/main/README.md): overview,
+  installation and usage
+- [ARCHITECTURE.md](https://raw.githubusercontent.com/OpenZeppelin/{{repo}}/main/ARCHITECTURE.md):
+  design decisions and constraints
+- [GUIDELINES.md](https://raw.githubusercontent.com/OpenZeppelin/{{repo}}/main/GUIDELINES.md):
+  coding conventions for contributors
+
+## Packages
+
+- [{{Package group}}](https://raw.githubusercontent.com/OpenZeppelin/{{repo}}/main/{{catalog-path}}/README.md):
+  {{what it covers; add one entry per catalog}}
+
+## Examples and API reference
+
+- [{{Runnable examples}}](https://github.com/OpenZeppelin/{{repo}}/tree/main/{{examples-path}}):
+  {{where to find integration examples}}
+- [{{Generated API reference}}]({{api-reference-url}}): {{where to look up the public API}}
+
+## Audits
+
+- [audits/README.md](https://raw.githubusercontent.com/OpenZeppelin/{{repo}}/main/audits/README.md):
+  audit status and, when available, reports with the code and scope each report covers

@@ -2,7 +2,7 @@
      library needs, not a fixed list — drop any that do not apply to this ecosystem, and add a
      section for anything it has that is not covered here. Fill each section with the actual
      conventions and delete the TODO lines. Rules live here and nowhere else — CONTRIBUTING.md,
-     AGENTS.md, the code-quality command and the AI review configs point at this file instead of
+     AGENTS.md, the code-quality skill and the AI review configs point at this file instead of
      restating it. Delete this comment when done. -->
 
 # Guidelines
@@ -15,7 +15,8 @@ restating the rules.
 > documentation. For **why** the library is shaped the way it is (design decisions, module
 > layout, constraints), see [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
-These conventions target {{Language}} {{edition/version}} and {{toolchain}} {{version}}. Where
+These conventions target {{Language}} {{edition/version}} and the toolchain version pinned in
+[`README.md`](README.md#usage). Where
 this file is silent, follow the [{{ecosystem style guide}}]({{ecosystem-style-guide-url}}).
 
 ## Naming

@@ -32,7 +32,8 @@ constraints in [`ARCHITECTURE.md`](ARCHITECTURE.md). Read both before opening a 
 below are the hard gates your contribution must clear:
 
 - **Test coverage**: minimum {{N}}% coverage required.
-- **Linting**: all code must pass strict linting (`{{lint command}}`).
+- **Linting**: all code must pass strict linting with the command in
+  [the workflow below](#a-typical-workflow).
 - **Conventions**: follow [`GUIDELINES.md`](GUIDELINES.md).
 - **Documentation**: add inline documentation for every public API, formatted per
   [`GUIDELINES.md`](GUIDELINES.md).
@@ -68,9 +69,9 @@ result:
   is correct, it is not ready.
 - **Respect reviewers' time.** Review bandwidth is the scarcest resource in this project, and
   an unreviewed generated diff spends it faster than anything else.
-- **Do a local review pass before requesting a human one.** Run the tests, the linter and the
-  repository's `code-quality` command (see [`AGENTS.md`](AGENTS.md) for the agent setup) and act
-  on what they report.
+- **Do a local review pass before requesting a human one.** Run the tests and linter, then follow
+  the `code-quality` review procedure (see [`AGENTS.md`](AGENTS.md) for how to use it with your
+  agent). Act on what these checks report.
 
 We may close low-effort AI output without further explanation.
 
