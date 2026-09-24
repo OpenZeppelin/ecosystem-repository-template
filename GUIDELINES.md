@@ -15,8 +15,9 @@ restating the rules.
 > documentation. For **why** the library is shaped the way it is (design decisions, module
 > layout, constraints), see [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
-These conventions target {{Language}} {{edition/version}} and {{toolchain}} {{version}}. Where
-this file is silent, follow the [{{ecosystem style guide}}]({{ecosystem-style-guide-url}}).
+These conventions target {{Language}} {{edition/version}} and the toolchain version pinned in
+[`README.md`](README.md#usage). Where this file is silent, follow the
+[{{ecosystem style guide}}]({{ecosystem-style-guide-url}}).
 
 ## Naming
 
