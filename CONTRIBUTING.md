@@ -98,8 +98,8 @@ We may close low-effort AI output without further explanation.
    the PR is linked to the issue through its description (step 5).
 
 3. Make your changes, add your files and update documentation. Run the tests, the formatter
-   and the linter locally and make sure they pass. For external PRs, the checks on GitHub run once a
-   maintainer approves them.
+   and the linter locally and make sure they pass. For external PRs, the checks on GitHub run
+   once a maintainer approves them.
 
    ```sh
    {{build command}}
