@@ -5,8 +5,10 @@
      3. GUIDELINES.md and ARCHITECTURE.md: write the actual conventions, module map, design
         decisions and constraints. Headings with the TODO comments removed do not count.
      4. RELEASING.md: replace the stub before the first release.
-     5. CI: add `.github/workflows/test.yml` (the house name) running the build, test, coverage
-        and lint commands from CONTRIBUTING.md; CONTRIBUTING assumes PR checks exist.
+     5. CI: add `.github/workflows/test.yml` (the house name) running the workflow commands from
+        CONTRIBUTING.md — build, tests, coverage, lint, and the formatter in check mode, so a
+        formatting difference fails the run instead of being rewritten. CONTRIBUTING assumes PR
+        checks exist.
      6. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
      7. Check every relative link resolves.
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply (CI workflow,
