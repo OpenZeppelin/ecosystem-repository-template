@@ -22,7 +22,7 @@ merge base and shows a different range whenever A and B are on divergent branche
 
 | Date | Target | Commit | Auditor | Scope | Links |
 | ---- | ------ | ------ | ------- | ----- | ----- |
-| {{Month YYYY}} | v{{X.Y.Z}} | [`{{short-sha}}`](https://github.com/OpenZeppelin/{{repo}}/tree/{{full-sha}}) | {{Auditor}} | {{what was in scope, e.g. "v{{X.Y.Z}} release audit" or a named module}} | [🔗](./{{YYYY-MM}}-v{{X.Y.Z}}.pdf) |
+| {{Month YYYY}} | v{{X.Y.Z}} | [`{{short-sha}}`](https://github.com/OpenZeppelin/{{repo}}/tree/{{full-sha}}) | {{Auditor}} | {{scope, e.g. "release audit" or a module name}} | [🔗](./{{YYYY-MM}}-v{{X.Y.Z}}.pdf) |
 | {{Month YYYY}} | v{{X.Y.Z}} | [`{{sha-a}} → {{sha-b}}`](https://github.com/OpenZeppelin/{{repo}}/compare/{{full-sha-a}}..{{full-sha-b}}) | {{Auditor}} | {{what changed between the two commits}} | [🔗](./{{YYYY-MM}}-v{{X.Y.Z}}-diff.pdf) |
 
 -->
