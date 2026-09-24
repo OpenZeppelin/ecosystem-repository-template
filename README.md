@@ -25,7 +25,7 @@
 [![Lint and Test](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/{{repo}}/actions/workflows/test.yml)
 [![Coverage Status](https://codecov.io/gh/OpenZeppelin/{{repo}}/graph/badge.svg)](https://codecov.io/gh/OpenZeppelin/{{repo}})
 [![GitHub Release](https://img.shields.io/github/v/tag/OpenZeppelin/{{repo}}.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/{{repo}}/releases/latest)
-[![{{Registry}} Package]({{registry-badge-url}})]({{registry-package-url}})
+[![{{registry}} Package]({{registry-badge-url}})]({{registry-package-url}})
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-yellow)](https://docs.openzeppelin.com/{{docs-slug}})
 -->
 
@@ -65,7 +65,7 @@ Pin to a specific version:
 
 ### Example
 
-```{{language}}
+```{{fence-language}}
 {{minimal example: import one module from the library and use it in a contract}}
 ```
 
