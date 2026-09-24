@@ -5,7 +5,7 @@ description: Review or improve changed code, documentation and configuration aga
 
 # Code quality
 
-Review the requested code against the repository's own sources of truth. Run repository commands
+Review the requested files against the repository's own sources of truth. Run repository commands
 from the repository root.
 
 1. Identify the files in scope from the user's path or request. With no path, compare the current
