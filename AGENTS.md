@@ -8,13 +8,6 @@ same files that human contributors use:
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — contribution process, build and test commands, coverage
   gate, and commit and PR conventions.
 
-## Loading this file
-
-Claude Code reads `AGENTS.md` natively (v2.1.277+) when the repository has no `CLAUDE.md`. On
-Amazon Bedrock, or with telemetry disabled, it does not: there, add a local, untracked `CLAUDE.md`
-containing the single line `@AGENTS.md`. Do not commit that file — when both exist, Claude reads
-`CLAUDE.md` instead of this one.
-
 ## Build, test and review
 
 Use the toolchain version in [`README.md`](README.md) and the commands in
