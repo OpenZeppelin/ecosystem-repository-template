@@ -1,7 +1,9 @@
 <!-- Template — adapting this repository. Skeleton files are not finished files; before the repo
      is announced as ready:
      1. Replace every {{...}} placeholder, here and in every other file.
-     2. LICENSE: keep MIT or swap the whole file for the license the deal requires.
+     2. LICENSE: keep MIT or swap the whole file for the license the deal requires. Keep the
+        matching SECURITY_MIT.md or SECURITY_AGPL.md, rename it to SECURITY.md and delete the
+        other. For any other license, adapt the license sentence in the Legal section.
      3. GUIDELINES.md and ARCHITECTURE.md: write the actual conventions, module map, design
         decisions and constraints. Headings with the TODO comments removed do not count.
      4. RELEASING.md: replace the stub before the first release.
@@ -9,8 +11,13 @@
         CONTRIBUTING.md — build, tests, coverage, lint, and the formatter in check mode, so a
         formatting difference fails the run instead of being rewritten. CONTRIBUTING assumes PR
         checks exist.
-     6. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
-     7. Check every relative link resolves.
+     6. `.github/dependabot.yml`: keep the `github-actions` entry and the entry for this repo's
+        package manager, and delete the others. Dependabot logs an error for every entry
+        whose manifest file does not exist.
+     7. `.github/workflows/cla.yml`: give the repo access to the `CLA_SIGS_ACCESS_PAT` secret.
+        Without it, the CLA check fails on every PR.
+     8. Fill `llms.txt` with real package catalogs, examples, API-reference and audit links.
+     9. Check every relative link resolves.
      Sections wrapped in OPTIONAL comment blocks stay hidden until they apply (CI workflow,
      coverage upload, first release, docs site, tooling integrations, first audit) — uncomment
      them then.
